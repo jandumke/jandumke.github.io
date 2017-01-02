@@ -6,6 +6,7 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
+    <span style="index">
     <h1 class="post-title">
       <a href="{{ site.url }}/{{ post.url }}">
         {{ post.title }}
@@ -15,12 +16,10 @@ title: Home
     <span class="post-date" >{{ post.date | date_to_string }}</span>
 
 <!--  place beside  text aech other  -->
-    <span>
+
     <span  style="index">{{ post.abstract}}</span>
-
-    <img style="index" src="{{ site.url }}/assets/{{ post.image }}"  >
     </span>
-
+    <img style="index" src="{{ site.url }}/assets/{{ post.image }}"  >
 
   </div>
   {% endfor %}
