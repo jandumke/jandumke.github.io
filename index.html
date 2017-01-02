@@ -11,13 +11,10 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
+    <span class="post-date">{{ post.date | date_to_string }}</span>
     //IMAGE
     <img src="{{ site.url }}/assets/{{ post.image }}">
     //IMAGE
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
     {{ post.abstract}}
   </div>
   {% endfor %}
