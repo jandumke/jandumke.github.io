@@ -12,8 +12,8 @@ title: Home
       <img class="abstract-image"  src="{{ site.url }}/assets/{{ post.image }}"  >
       {% endif %}
 
-    <h1 style=   " text-align: justify;" class="post-title">
-      <a href="{{ site.url }}/{{ post.url }}" style=   " text-align: justify; text-indent: 2em;">
+    <h1 class="abstract-text" class="post-title">
+      <a href="{{ site.url }}/{{ post.url }}" class="abstract-text">
         {{ post.title }}
       </a>
     </h1>
@@ -22,7 +22,7 @@ title: Home
 
   <!-- add abstract -->
     {% if  post.abstract %}
-    <p  style=   " text-align: justify;">{{ post.abstract}}</p>
+    <p  class="abstract-text" >{{ post.abstract}}</p>
     {% endif %}
 
 
