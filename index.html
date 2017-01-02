@@ -16,9 +16,11 @@ title: Home
   <!--  <span class="post-date" >{{ post.date | date_to_string }}</span> -->
     <p  style="text-align: justify">{{ post.abstract}}</p>
 
-
+  <!-- if image defined -->
+    {% if  post.image %}
     <img style="float:right" src="{{ site.url }}/assets/{{ post.image }}"  >
-
+    {% endif %}
+    
   </div>
   {% endfor %}
 </div>
