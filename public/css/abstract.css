@@ -1,10 +1,10 @@
-@media (min-width: 38em) {
-  .abstract-image {
-    display:none;
-  }
+.abstract-image {
+  display:none;
 }
 
-.abstract-image {
-    float: right;
-    margin: 0px 20px 20px 0px;
+@media (min-width: 38em) {
+  .abstract-image {
+      float: right;
+      margin: 20px 20px 20px 20px;
+  }
 }
