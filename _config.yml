@@ -1,10 +1,10 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+#permalink:           pretty
 
 # Setup
-title:               Blog Title
+title:               AI, Deep and Reinforcement Learning
 tagline:             ''
 description:         ''
 url:                 https://jandumke.github.io/
@@ -14,8 +14,8 @@ paginate:            5
 # About/contact
 author:
   name:              Jan Dumke
-#  url:               https://twitter.com/mdo
-#  email:             markdotto@gmail.com
+#  url:
+#  email:
 
 # Custom vars
 #version:             1.0.0
