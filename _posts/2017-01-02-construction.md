@@ -2,7 +2,7 @@
 layout: post
 title: Blog under Construction
 abstract: This blog is still under Construction
-image: test_image.svg
+image: test_image.jpg
 ---
 
 ### Under Construction
