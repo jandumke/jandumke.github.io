@@ -4,12 +4,12 @@
 permalink:           pretty
 
 # Setup
-title:               Lanyon
+title:               Blog Title
 tagline:             ''
 description:         ''
 url:                 https://jandumke.github.io/
 baseurl:             ''
-paginate:            10
+paginate:            5
 
 # About/contact
 #author:
