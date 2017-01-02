@@ -3,6 +3,7 @@ layout: post
 title: Blog under Construction
 abstract: This blog is still under Construction
 image: test_image.png
+author: Jan Dumke
 ---
 
 ### Under Construction
