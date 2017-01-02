@@ -1,7 +1,7 @@
 ---
 layout: post
-title: This Blog is under Construction
-abstract: abstract abstract abstract abstract abstract abstract abstract abstract abstract
+title: Blog under Construction
+abstract: This blog is still under Construction
 image: test_image.svg
 ---
 
