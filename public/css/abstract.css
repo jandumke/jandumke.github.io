@@ -2,7 +2,7 @@
   display:none;
 }
 
-@media (max-width: 30em) {
+@media (mix-width: 30em) {
   .abstract-image {
     display:inline;
     float: right;
