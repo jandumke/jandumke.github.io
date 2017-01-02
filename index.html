@@ -14,11 +14,12 @@ title: Home
     </h1>
 
   <!--  <span class="post-date" >{{ post.date | date_to_string }}</span> -->
+  
   <!-- add image -->
     {% if  post.image %}
-    <img style="float:right" src="{{ site.url }}/assets/{{ post.image }}"  >
+    <img style="float:right; margin: 20px 20px 0px 0px" src="{{ site.url }}/assets/{{ post.image }}"  >
     {% endif %}
-    
+
   <!-- add abstract -->
     {% if  post.abstract %}
     <p  style="text-align: justify">{{ post.abstract}}</p>
