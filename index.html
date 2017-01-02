@@ -11,11 +11,16 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    //IMAGE
-    <img src="{{ site.url }}/assets/{{ post.image }}">
-    //IMAGE
-    {{ post.abstract}}
+
+    <span class="post-date" >{{ post.date | date_to_string }}</span>
+
+<!--  place beside  text aech other  -->
+    <span  style="float:left">{{ post.abstract}}</span>
+
+    <img src="{{ site.url }}/assets/{{ post.image }}"  style="float:right">
+
+
+
   </div>
   {% endfor %}
 </div>
