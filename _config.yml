@@ -9,13 +9,13 @@ tagline:             ''
 description:         ''
 url:                 https://jandumke.github.io/
 baseurl:             ''
-paginate:            5
+paginate:            10
 
 # About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+#author:
+#  name:              Mark Otto
+#  url:               https://twitter.com/mdo
+#  email:             markdotto@gmail.com
 
 # Custom vars
-version:             1.0.0
+#version:             1.0.0
