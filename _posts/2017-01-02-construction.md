@@ -13,3 +13,5 @@ some text some text some text some text some text some text some text some text 
 some image some image some image some image some image some image some image some image some image :
 
 ![My helpful screenshot]({{ site.url }}/assets/test_image.svg)
+
+discuss, author, similar, icon
